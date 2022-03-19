@@ -4,6 +4,6 @@ const content = document.querySelector('.content')
 firstPage.firstPageLoad()
 
 const homeTab = document.querySelector('.home');
-homeTab.addEventListener('click',() => firstPage.firstPageLoad());
+homeTab.addEventListener('click',() => firstPage.homePageLoad());
 const menuTab = document.querySelector('.menu');
-menuTab.addEventListener('click',() => secondPage.menuPageLoad());
+menuTab.addEventListener('click',() => secondPage.menuPageLoad())

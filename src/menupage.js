@@ -1,6 +1,6 @@
 export function menuPageLoad() {
-    const head = document.querySelector('head')
-    head.innerHTML += `<link rel="stylesheet" href="../style/menu.css">`
+    const style = document.querySelector('link')
+    style.innerHTML = `<link rel="stylesheet" href="../style/menu.css">`
     const div = document.createElement('div')
     const elem = document.getElementById('content')
     div.innerHTML = 
